@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="addpages.css" />
+    <link rel="stylesheet" href="./style.css"/>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>TastyTV</title>
+  <style>
+  body{
+    background-image: url("https://image.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg") ;
+    height: 100%;
+    width: 100%;
+}
+
+
+button {
+  align-items: center;
+  margin-left: 25%;
+}
+
+</style>
+  <body>
+    <header>
+        <nav class="navbar" >
+            <a class="nav-item nav-link active" href="
+            test1.html"
+              >Home 
+            <a class="nav-item nav-link" href="timetable.html">Programming</a>
+            <a class="nav-item nav-link" href="recommendation.html">Recommendations</a>
+            <a class="nav-item nav-link" href="./signin.html">Sign In</a>
+          </nav>
+    </header>
+     <section class="container">         
+                <button
+                  id="button"
+                  type="submit"
+                  class="btn btn-primary"> Click here for a movie suggestion</button>
+                </button>
+        <div class="docket">
+          <h3 class="name"></h3>
+          <p class="year"></p>
+          <p class="genre"></p>
+          <p class="desc"></p>
+        </div>
+        </section>
+    <script src="./src/movies.js"></script>
+  </body>
+</html>

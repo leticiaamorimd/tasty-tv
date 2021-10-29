@@ -1,0 +1,118 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header a {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.container {
+  border: black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 2px;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: auto;
+  min-height: 60vh;
+  padding: 10px;
+  background-color: white;
+  margin: 30px;
+}
+
+/*RECOMMENDATION PAGE*/
+.container {
+  border: black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 2px;
+  min-height: 60vh;
+  max-width: 700px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.docket {
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+/*LOGIN/REGISTER*/
+.container-login {
+  align-content: center;
+}
+
+form {
+  padding-left: 1.9rem;
+}
+
+a {
+  color: black;
+}
+
+.container-login {
+  border: black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 2px;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: 30px;
+}
+form {
+  position: relative;
+  margin: 5vh;
+  width: 80%;
+}
+
+.btn-primary {
+  margin: 2vh;
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+.footer-nav a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .container {
+    border: black;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    margin: auto;
+    align-items: center;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+}

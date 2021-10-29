@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/login.html" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="addpages.css" />
+    <style>
+      body {
+        background-image: url("https://image.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg");
+        height: 100%;
+        width: 100%;
+      }
+
+      a {
+        color: white;
+      }
+
+      .container {
+        background-color: white;
+        min-width: 900px;
+      }
+
+      p {
+        border: 1px solid black;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          min-width: auto;
+        }
+      }
+    </style>
+    <title>TastyTV</title>
+  </head>
+  <body>
+    <nav class="navbar" id="expanded-nav">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="timetable.html">Programming</a>
+      <a class="nav-item nav-link" href="recommendation.html"
+        >Recommendations</a
+      >
+      <a class="nav-item nav-link" href="signin.html">Sign In</a>
+    </nav>
+    <div class="container">
+      <h1 style="text-align: center; text-decoration: underline;">
+        Catalogue of Movies
+      </h1>
+      <div class="accordion"></div>
+    </div>
+    <script src="./src/catalogue.js"></script>
+  </body>
+</html>
